@@ -3,76 +3,8 @@
   <component name="ContentModelStore">
     <e p="C:\Users\Admin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Admin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_M404.1261099090.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Public\Documents\Chess\Ches" t="IncludeRecursive">
-      <e p="App.config" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="Ches.csproj" t="IncludeRecursive" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="Properties" t="Include">
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="Resources.Designer.cs" t="Include" />
-        <e p="Resources.resx" t="Include" />
-        <e p="Settings.Designer.cs" t="Include" />
-        <e p="Settings.settings" t="Include" />
-      </e>
-    </e>
     <e p="C:\Users\Public\Documents\M404" t="IncludeFlat">
       <e p="M404.sln" t="IncludeFlat" />
-      <e p="packages" t="ExcludeRecursive" />
-    </e>
-    <e p="C:\Users\Public\Documents\StandardEreignisse\StandardEreignisse" t="IncludeRecursive">
-      <e p="App.config" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="Form1.resx" t="Include" />
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="Properties" t="Include">
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="Resources.Designer.cs" t="Include" />
-        <e p="Resources.resx" t="Include" />
-        <e p="Settings.Designer.cs" t="Include" />
-        <e p="Settings.settings" t="Include" />
-      </e>
-      <e p="StandardEreignisse.csproj" t="IncludeRecursive" />
-    </e>
-    <e p="C:\Users\Public\Documents\Taschenrechner\Taschenrechner" t="IncludeRecursive">
-      <e p="App.config" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="Form1.resx" t="Include" />
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="Properties" t="Include">
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="Resources.Designer.cs" t="Include" />
-        <e p="Resources.resx" t="Include" />
-        <e p="Settings.Designer.cs" t="Include" />
-        <e p="Settings.settings" t="Include" />
-      </e>
-      <e p="Taschenrechner.csproj" t="IncludeRecursive" />
-    </e>
-    <e p="C:\Users\Public\Documents\WindowsFormsApp1\PingPong" t="IncludeRecursive">
-      <e p="App.config" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="Form1.resx" t="Include" />
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="PingPong.csproj" t="IncludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="Properties" t="Include">
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="Resources.Designer.cs" t="Include" />
-        <e p="Resources.resx" t="Include" />
-        <e p="Settings.Designer.cs" t="Include" />
-        <e p="Settings.settings" t="Include" />
-      </e>
     </e>
   </component>
 </project>

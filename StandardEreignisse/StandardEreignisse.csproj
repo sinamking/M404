@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A16762B1-FB4F-4661-9AE1-94502535D837}</ProjectGuid>
+    <ProjectGuid>{9D8DD665-6675-427E-AEB5-E397BD399130}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Taschenrechner</RootNamespace>
-    <AssemblyName>Taschenrechner</AssemblyName>
+    <RootNamespace>StandardEreignisse</RootNamespace>
+    <AssemblyName>StandardEreignisse</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

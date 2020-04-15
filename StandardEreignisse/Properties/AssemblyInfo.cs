@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Taschenrechner")]
+[assembly: AssemblyTitle("StandardEreignisse")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Taschenrechner")]
+[assembly: AssemblyProduct("StandardEreignisse")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("A16762B1-FB4F-4661-9AE1-94502535D837")]
+[assembly: Guid("9D8DD665-6675-427E-AEB5-E397BD399130")]
 
 // Version information for an assembly consists of the following four values:
 //
