@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../Chess/Ches" />
+    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../StandardEreignisse/StandardEreignisse" />
+    <content url="file://$MODULE_DIR$/../../../Taschenrechner/Taschenrechner" />
+    <content url="file://$MODULE_DIR$/../../../WindowsFormsApp1/PingPong" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
