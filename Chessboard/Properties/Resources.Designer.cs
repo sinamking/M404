@@ -45,7 +45,7 @@ namespace Ches.Properties
                 if ((resourceMan == null))
                 {
                     global::System.Resources.ResourceManager temp =
-                        new global::System.Resources.ResourceManager("Ches.Properties.Resources",
+                        new global::System.Resources.ResourceManager("Chessboard.Properties.Resources",
                             typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
