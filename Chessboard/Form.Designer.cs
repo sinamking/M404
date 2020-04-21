@@ -16,7 +16,11 @@
         }
 
         #region Windows Form Designer generated code
-        
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
@@ -39,7 +43,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(114, 10);
+            this.btnStart.Location = new System.Drawing.Point(357, 10);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(101, 35);
             this.btnStart.TabIndex = 1;
