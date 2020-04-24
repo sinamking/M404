@@ -43,9 +43,13 @@
             this.btnRechts = new System.Windows.Forms.Button();
             this.btnRunter = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.rdbBall = new System.Windows.Forms.RadioButton();
+            this.rdbSchläger = new System.Windows.Forms.RadioButton();
+            this.grpBox = new System.Windows.Forms.GroupBox();
             this.pnlSpiel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.picSchlägerRechts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.picBall)).BeginInit();
+            this.grpBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlSpiel
@@ -99,6 +103,7 @@
             this.vsbSchlägerRechts.Size = new System.Drawing.Size(22, 288);
             this.vsbSchlägerRechts.TabIndex = 2;
             this.vsbSchlägerRechts.Value = 50;
+            this.vsbSchlägerRechts.Visible = false;
             this.vsbSchlägerRechts.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vsbSchlägerRechts_Scroll);
             // 
             // label1
@@ -128,6 +133,7 @@
             this.btnHoch.Tag = "Ho";
             this.btnHoch.Text = "⬆";
             this.btnHoch.UseVisualStyleBackColor = false;
+            this.btnHoch.Click += new System.EventHandler(this.btnHoch_Click);
             // 
             // btnLinks
             // 
@@ -139,6 +145,7 @@
             this.btnLinks.Tag = "Li";
             this.btnLinks.Text = "⬅";
             this.btnLinks.UseVisualStyleBackColor = false;
+            this.btnLinks.Click += new System.EventHandler(this.btnLinks_Click);
             // 
             // btnRechts
             // 
@@ -149,6 +156,7 @@
             this.btnRechts.TabIndex = 7;
             this.btnRechts.Text = "->";
             this.btnRechts.UseVisualStyleBackColor = false;
+            this.btnRechts.Click += new System.EventHandler(this.btnRechts_Click);
             // 
             // btnRunter
             // 
@@ -159,6 +167,7 @@
             this.btnRunter.TabIndex = 8;
             this.btnRunter.Text = "⬇";
             this.btnRunter.UseVisualStyleBackColor = false;
+            this.btnRunter.Click += new System.EventHandler(this.btnRunter_Click);
             // 
             // label2
             // 
@@ -170,11 +179,48 @@
                 "Tastatursteuerung :\r\nTaste\r\n\r\nH:   Horizontale Flugrichtung umkehren\r\nV:    Verti" +
                 "kale Flugrichtung umkehren\r\nP:    Spiel pausieren\r\nS:    Spiel weiterlaufen lass" + "en";
             // 
+            // rdbBall
+            // 
+            this.rdbBall.Checked = true;
+            this.rdbBall.Location = new System.Drawing.Point(6, 36);
+            this.rdbBall.Name = "rdbBall";
+            this.rdbBall.Size = new System.Drawing.Size(215, 31);
+            this.rdbBall.TabIndex = 10;
+            this.rdbBall.TabStop = true;
+            this.rdbBall.Text = "Ballsteuerung";
+            this.rdbBall.UseVisualStyleBackColor = true;
+            this.rdbBall.CheckedChanged += new System.EventHandler(this.rdbBall_CheckedChanged);
+            this.rdbBall.KeyDown += new System.Windows.Forms.KeyEventHandler(this.rdbBall_KeyDown_1);
+            // 
+            // rdbSchläger
+            // 
+            this.rdbSchläger.Location = new System.Drawing.Point(6, 66);
+            this.rdbSchläger.Name = "rdbSchläger";
+            this.rdbSchläger.Size = new System.Drawing.Size(215, 31);
+            this.rdbSchläger.TabIndex = 11;
+            this.rdbSchläger.Text = "Schlägersteuerung";
+            this.rdbSchläger.UseVisualStyleBackColor = true;
+            this.rdbSchläger.CheckedChanged += new System.EventHandler(this.rdbSchläger_CheckedChanged);
+            // 
+            // grpBox
+            // 
+            this.grpBox.Controls.Add(this.rdbSchläger);
+            this.grpBox.Controls.Add(this.rdbBall);
+            this.grpBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.grpBox.Location = new System.Drawing.Point(674, 323);
+            this.grpBox.Name = "grpBox";
+            this.grpBox.Size = new System.Drawing.Size(197, 121);
+            this.grpBox.TabIndex = 12;
+            this.grpBox.TabStop = false;
+            this.grpBox.Text = "Steuerung";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 519);
+            this.Controls.Add(this.grpBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnRunter);
             this.Controls.Add(this.btnRechts);
@@ -191,6 +237,7 @@
             this.pnlSpiel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.picSchlägerRechts)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.picBall)).EndInit();
+            this.grpBox.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -210,5 +257,8 @@
         private System.Windows.Forms.Button btnRechts;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox picBall;
+        private System.Windows.Forms.RadioButton rdbBall;
+        private System.Windows.Forms.GroupBox grpBox;
+        private System.Windows.Forms.RadioButton rdbSchläger;
     }
 }

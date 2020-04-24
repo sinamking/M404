@@ -44,7 +44,7 @@
             // 
             // Label2
             // 
-            Label2.Location = new System.Drawing.Point(185, 200);
+            Label2.Location = new System.Drawing.Point(393, 57);
             Label2.Name = "Label2";
             Label2.Size = new System.Drawing.Size(108, 27);
             Label2.TabIndex = 3;

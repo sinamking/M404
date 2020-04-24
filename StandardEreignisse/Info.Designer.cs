@@ -28,17 +28,17 @@ namespace AB03_Standardevents
             this.btnSchliessen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Alle btnSchliessen Events
+            // btnSchliessen
             // 
-            this.btnSchliessen.Location = new System.Drawing.Point(220, 275);
+            this.btnSchliessen.Location = new System.Drawing.Point(118, 287);
             this.btnSchliessen.Name = "btnSchliessen";
             this.btnSchliessen.Size = new System.Drawing.Size(139, 62);
             this.btnSchliessen.TabIndex = 0;
-            this.btnSchliessen.Text = "schliessen";
+            this.btnSchliessen.Text = "Close";
             this.btnSchliessen.UseVisualStyleBackColor = true;
             this.btnSchliessen.Click += new System.EventHandler(this.btnSchliessen_Click);
             // 
-            // Info Form
+            // Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

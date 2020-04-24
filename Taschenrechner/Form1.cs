@@ -12,6 +12,8 @@ namespace Taschenrechner
 {
     public partial class Form1 : Form
     {
+        Rechenoperator OPrechenoperator = new Rechenoperator();
+
         public Form1()
         {
             InitializeComponent();
@@ -19,47 +21,26 @@ namespace Taschenrechner
 
         private void btnSubtraktion_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = zahl1 - zahl2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "-";
+            OPrechenoperator.Subtraktion(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = zahl1 + zahl2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "+";
+            OPrechenoperator.Addition(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = Math.Pow (zahl1, zahl2);
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "Hoch";
+            OPrechenoperator.Potenz(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
 
         private void btnMultiplikation_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = zahl1 * zahl2;
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "";
+            OPrechenoperator.Multiplikation(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
 
         private void btnMaximum_Click(object sender, EventArgs e)
         {
-            double zahl1 = Convert.ToDouble(txtOperand1.Text);
-            double zahl2 = Convert.ToDouble(txtOperand2.Text);
-            double ergebnis = Math.Max (zahl1, zahl2);
-            lblErgebnis.Text = Convert.ToString(ergebnis);
-            lblOperator.Text = "";
+            OPrechenoperator.Maximum(txtOperand1, txtOperand2, lblErgebnis, lblOperator);
         }
     }
 }

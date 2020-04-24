@@ -19,11 +19,11 @@ namespace AB06_Chessboard
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            ZeichneSchachbrett(Convert.ToInt32(nudAnzahlZeilen.Value));
+            ZeichenSchachbrett(Convert.ToInt32(nudAnzahlZeilen.Value));
         }
 
         //Brettformat erstellen 
-        private void ZeichneSchachbrett(int anzahl)
+        private void ZeichenSchachbrett(int anzahl)
         {
             int brettbreite = pnlSchachbrett.Width;
             int bretthoehe = pnlSchachbrett.Height;
