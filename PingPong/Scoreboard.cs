@@ -18,7 +18,7 @@ namespace PingPong
         {
             lblPoints.Text = Convert.ToString(points);
         }
-
+        //Zeigt denn Scoreboard an
         public void ShowScoreboard()
         {
             if (!File.Exists(path))
@@ -28,17 +28,17 @@ namespace PingPong
 
             lblScores.Text = File.ReadAllText(Application.StartupPath + filename);
         }
-
+        // Nach bestätigung kann man einen Eintrag tätigen im Scoreboard
         private void btnEnter_Click(object sender, EventArgs e)
         {
             string name = txtName.Text;
-            string createText = String.Format("   {0}        {1}        {2}", lblPoints.Text, name,
+            string createText = String.Format("   {0}        {1}        {2}", lblPoints.Text, name, 
                                     DateTime.Today.ToString("dd.MM.yyyy")) + Environment.NewLine;
             File.AppendAllText(path, createText);
             lblScores.Text = File.ReadAllText(Application.StartupPath + filename);
             btnEnter.Visible = false;
         }
-
+        // Einen "zurück" button
         private void btnZurück_Click(object sender, EventArgs e)
         {
             Hide();

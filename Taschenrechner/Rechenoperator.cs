@@ -3,6 +3,7 @@ using System.Windows.Forms;
 
 namespace Taschenrechner
 {
+    //Rechenoperatoren Erstellen
     public class Rechenoperator
     {
         public void Subtraktion(TextBox Operand1, TextBox Operand2, Label Operator, Label Ergebnis)

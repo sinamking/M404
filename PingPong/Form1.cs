@@ -183,7 +183,7 @@ namespace PingPong
         {
             picBall.Location = new Point(picBall.Location.X + 0, picBall.Location.Y + 25);
         }
-
+        // IF Statements für Check bei Radiobuttons
         private void rdbSchläger_CheckedChanged(object sender, EventArgs e)
         {
             if (rdbSchläger.Checked)
@@ -201,7 +201,7 @@ namespace PingPong
                 KnöpfeSichtbar(true);
             }
         }
-
+        // Knöpfe Sichtbar machen mit Startvorgabe
         private void KnöpfeSichtbar(bool Sichtbar)
         {
             if (Sichtbar)

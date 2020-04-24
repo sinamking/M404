@@ -13,7 +13,7 @@ namespace Taschenrechner
     public partial class Form1 : Form
     {
         Rechenoperator OPrechenoperator = new Rechenoperator();
-
+        // Die Programmierten Rechenoperatoren verwenden
         public Form1()
         {
             InitializeComponent();
